@@ -29,6 +29,9 @@ library(knitr)
 library(here)
 library(learnr)
 library(gradethis)
+# Note: if you do not have the `gradethis` package, you will need to install it first
+# install.packages("remotes")
+# remotes::install_github("rstudio-education/gradethis")
 gradethis::gradethis_setup()
 ```
 
@@ -215,6 +218,8 @@ library(purrr)
 library(tidyr)
 library(forcats)
 library(ggplot2)
+# Note: Please ensure that you have the latest version of the `ggplot2` package 
+# using update.packages("ggplot2")
 library(directlabels)
 library(ggrepel)
 library(broom)
